@@ -1,5 +1,5 @@
 .container{
-    max-width:100px;
+    max-width:1000px;
     margin: 0 auto;
 }
 
@@ -11,4 +11,11 @@ header{
 ul{
     display:flex;
     align-items: center;
+    list-style: none;
+}
+li{
+    margin-right: 20px;
+}
+li:last-child{
+    margin-right: 0;
 }
